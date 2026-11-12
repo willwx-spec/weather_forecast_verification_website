@@ -36,8 +36,8 @@ class Analysis:
     
 @dataclass
 class State:
-    forecasts: dict(str, Forecast)
-    observations: dict(str, Observation)
+    forecasts: dict[str, Forecast]
+    observations: dict[str, Observation]
     current_forecast: Forecast
     current_observation: Observation
     error_message: str
