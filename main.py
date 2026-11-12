@@ -16,7 +16,7 @@ set_site_information(
     links="https://github.com/willwx-spec/weather_forecast_verification_website"
 )
 hide_debug_information()
-set_website_frame(False)
+set_website_framed(False)
 
 # dataclasses
 @dataclass
