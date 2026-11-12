@@ -7,6 +7,16 @@ import json
 # CSS is a very distracting side quest
 add_website_css("body { background-color: #101D2E; }")
 
+set_website_title("Wx Fcst Analysis Website WD")
+set_site_information(
+    author="William Dorsch",
+    description="Information about CS1 final project website",
+    sources="drafter documentation",
+    planning=["CS!_final_project_BRAINSTORMING.docx","CS1_final_project_DESIGN.docx"],
+    links="https://github.com/willwx-spec/weather_forecast_verification_website"
+)
+hide_debug_information()
+set_website_frame(False)
 
 # dataclasses
 @dataclass
