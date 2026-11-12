@@ -5,7 +5,7 @@ import json
 
 # dug a little bit too far into the documentation
 # CSS is a very distracting side quest
-add_website_css("body { background-color: #101D2E; }")
+add_website_css("body { background-color: #567ea3; }")
 
 set_website_title("Wx Fcst Analysis Website WD")
 set_site_information(
