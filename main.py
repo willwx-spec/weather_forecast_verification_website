@@ -7,6 +7,7 @@ import json
 # CSS is a very distracting side quest
 add_website_css("body { background-color: #101D2E; }")
 
+
 # dataclasses
 @dataclass
 class Forecast:
